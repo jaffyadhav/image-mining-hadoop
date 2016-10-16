@@ -1,0 +1,3 @@
+# Image Mining using Hadoop
+
+Image mining is the term that is used to refer to the process which gives us information about a set of images and the information that is obtained here is the number of people in a particular image. This is done by running a face-detection algorithm implemented using OpenCV on  distributed environment. Map Reduce algorithm is used to consolidate the results from each image and present it as information about the dataset to the user. Normal sequential operation of the face counter for a big dataset would have taken a long time but with the Map Reduce technique being employed over distributed framework, the operation will be completed in a much shorter time.
